@@ -47,7 +47,7 @@ const Feedback = () => {
           <u className=" font-bold">More know About us</u>
         </p>
       </div>
-      <div className="md:w-[40%] mt-5 md:mt-0">
+      <div className="md:w-[45%] mt-5 md:mt-0">
         <Swiper
           spaceBetween={30}
           slidesPerView={1}
