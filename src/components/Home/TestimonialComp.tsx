@@ -57,10 +57,15 @@ const TestimonialComp = () => {
               slidesPerView: 1,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 1,
             },
             1024: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            1200: {
               slidesPerView: 4,
+              spaceBetween: 150,
             },
           }}
           centeredSlides={true}
@@ -68,7 +73,7 @@ const TestimonialComp = () => {
         >
           {testimonials.map((testimonials, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-cardBg flex sm:min-w-[306px] flex-col space-y-3 py-5 pl-7 pr-2  h-[202px] rounded-[8px]">
+              <div className="bg-cardBg flex min-w-[306px] flex-col space-y-3 py-5 pl-7 pr-2  h-[202px] rounded-[8px]">
                 <p className="text-left text-cardText  italic h-1/2">
                   {testimonials?.text}
                 </p>

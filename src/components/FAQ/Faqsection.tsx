@@ -47,7 +47,7 @@ const Faqsection = () => {
   ];
 
   return (
-    <div className="md:w-[80%] w-11/12 mx-auto md:flex gap-16 my-20">
+    <div className="md:w-[80%] w-11/12 mx-auto xl:flex gap-16 my-20">
       <div className="flex flex-col space-y-4">
         <p
           className={`${
@@ -82,7 +82,7 @@ const Faqsection = () => {
         </p>
       </div>
       {sectionSelected === "product" && (
-        <div className="md:w-[70%] my-7 md:my-0">
+        <div className="xl:w-[70%] my-7 xl:my-0">
           <Accordion type="single" collapsible className="w-full ">
             {faqItems.map((item, index) => (
               <AccordionItem

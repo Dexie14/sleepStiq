@@ -61,10 +61,10 @@ const Feedback = () => {
           {testimonials.map((testimonials, index) => (
             <SwiperSlide key={index}>
               <div className="bg-cardBg py-12 px-1 md:px-0 shadow-card h-fit ">
-                <p className="text-left text-cardText sm:w-[60%] w-[90%] mx-auto italic">
+                <p className="text-left text-cardText xl:w-[60%] w-[90%] mx-auto italic">
                   {testimonials?.text}
                 </p>
-                <div className="flex items-center gap-8 mt-12 sm:w-[60%] w-[90%] mx-auto">
+                <div className="flex items-center gap-8 mt-12 xl:w-[60%] w-[90%] mx-auto">
                   <img src={testimonials?.avatar} alt="ceoAvatar" />
                   <div>
                     <h6 className="text-cardText font-bold text-xl">
