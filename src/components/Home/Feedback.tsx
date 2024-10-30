@@ -30,8 +30,8 @@ const testimonials: Testimonial[] = [
 
 const Feedback = () => {
   return (
-    <section className="my-24 md:w-[80%] w-11/12 mx-auto md:flex justify-between">
-      <div className="md:w-[50%]">
+    <section className="my-24 lg:w-[80%] w-11/12 mx-auto lg:flex justify-between">
+      <div className="lg:w-[50%]">
         <p className="text-sm">Our Amazing Story</p>
         <h3 className="font-bold my-6 sm:text-3xl text-xl">
           10k+Happ
@@ -47,7 +47,7 @@ const Feedback = () => {
           <u className=" font-bold">More know About us</u>
         </p>
       </div>
-      <div className="md:w-[45%] mt-5 md:mt-0">
+      <div className="lg:w-[45%] mt-5 lg:mt-0">
         <Swiper
           spaceBetween={30}
           slidesPerView={1}
