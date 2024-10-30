@@ -65,7 +65,7 @@ const TestimonialComp = () => {
             },
             1200: {
               slidesPerView: 4,
-              spaceBetween: 150,
+              spaceBetween: 250,
             },
           }}
           centeredSlides={true}
