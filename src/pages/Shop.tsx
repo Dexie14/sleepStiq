@@ -7,13 +7,13 @@ import Footer from "@/components/menuBars/Footer";
 const Shop = () => {
   return (
     <div>
-      <HeroLayout backgroundImage="AboutImage">
+      <HeroLayout>
         <ShopHeroSection />
       </HeroLayout>
       <AboutProduct />
       <hr className=" border-t border-borderColor pb-14 sm:w-[80%] w-full mx-auto" />
       <div className="mb-14">
-      <TestimonialComp />
+        <TestimonialComp />
       </div>
       <Footer />
     </div>

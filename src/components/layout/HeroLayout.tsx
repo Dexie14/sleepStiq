@@ -1,17 +1,24 @@
 import { ReactNode } from "react";
 import Header from "../menuBars/Header";
+import { useLocation } from "react-router-dom";
 
 interface HeroProps {
-  backgroundImage?: string;
   children: ReactNode;
 }
 
-const HeroLayout = ({ backgroundImage, children }: HeroProps) => {
+const HeroLayout = ({ children }: HeroProps) => {
+  const location = useLocation();
+
+  const shop = location.pathname === "/shop";
+  const home = location.pathname === "/";
   return (
     <div
-        // className="bg-[url('/AboutImage.png')] bg-cover bg-center"
       className={`${
-        backgroundImage ? `bg-[url('/${backgroundImage}.png')]` : "bg-fadedBackground"
+        home
+          ? `bg-[url('/HeroImage.png')]`
+          : shop
+          ? `bg-[url('/AboutImage.png')]`
+          : "bg-fadedBackground"
       } sm:bg-cover sm:bg-center `}
     >
       <Header />

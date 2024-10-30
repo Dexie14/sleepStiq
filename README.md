@@ -1,4 +1,4 @@
-This is a website for secSystem
+This is a website for sleepStiq
 
 ## Table of contents
 
@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL1: [https://github.com/Dexie14/sleepStiq](https://github.com/Dexie14/sleepStiq)
-- Solution URL2: [https://sleepStiq.vercel.app/](https://sleepStiq.vercel.app/)
+- Solution URL2: [https://sleep-stiq-henna.vercel.app//](https://sleep-stiq-henna.vercel.app/)
 
 ## Author
 

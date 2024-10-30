@@ -12,7 +12,7 @@ import Footer from "@/components/menuBars/Footer";
 const Home = () => {
   return (
     <div>
-      <HeroLayout backgroundImage="HeroImage">
+      <HeroLayout >
         <HeroSection />
       </HeroLayout>
       <LogoCard />
